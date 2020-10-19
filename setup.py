@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='wiz-utils',
 
-    version='1.0.0',
+    version='1.0.1',
 
     description='wiz-utils',
 
