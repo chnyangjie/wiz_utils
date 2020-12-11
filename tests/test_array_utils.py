@@ -9,3 +9,6 @@ class TestArrayUtils(TestCase):
         self.assertTrue(ArrayUtils.is_empty([]))
         self.assertFalse(ArrayUtils.is_empty([None, ]))
         self.assertFalse(ArrayUtils.is_empty([1, ]))
+
+    def test_spilt(self):
+        ArrayUtils.spilt([], 0)

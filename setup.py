@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='wiz-utils',
 
-    version='1.0.1',
+    version='1.0.2',
 
     description='wiz-utils',
 
@@ -42,7 +42,7 @@ setup(
     keywords='utils string array',
     package_dir={'wiz_utils': 'src/wiz_utils'},
     packages=find_packages(where='src'),
-    python_requires='>=3.6, <4',
+    python_requires='>=3.5, <4',
     install_requires=[''],
     py_modules=['wiz_utils'],
     project_urls={
